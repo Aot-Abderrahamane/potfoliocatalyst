@@ -35,8 +35,8 @@ const Projects = () => {
 		},
 		{
 			title: "APPLICATION DE GESTION DES COURS",
-			demoLink: "https://ecommerce-site-9d5dc7.netlify.app/",
-			sourceCodeLink: "https://github.com/Nishant-Bhosale/amazon-clone",
+			demoLink: "",
+			sourceCodeLink: "",
 			imageSrc: ecommerceImg,
 			description:"est un site web E-LEARNING offre tous les types des cours du secteur de developpement informatique. Vous trouverez dans se site vitrine virtuelle toutes les meilleures cours de programmation",
 			stack:['JAVA', 'SPRING BOOT', 'BootStrap'],
@@ -46,9 +46,9 @@ const Projects = () => {
 		},
 		{
 			title: "Application de CHATROOM",
-			demoLink: "https://cpmc-dypcoe.vercel.app/",
-			sourceCodeLink: "https://github.com/Spyware007/CPMC-DYPCOE-OFFICIAL",
-			imageSrc: CPMC,
+			demoLink: "",
+			sourceCodeLink: "",
+			imageSrc: chatAppImg,
 			description:"est un site web de chat offre une tous les types des cours du secteur de developpement informatique. Vous trouverez dans se site vitrine virtuelle toutes les meilleures cours de programmation ",
 			stack:['Python', 'Flask',"Socket.io", 'BootStrap'],
 			thumbnail :[blogImage,blogImage,blogImage,blogImage],
