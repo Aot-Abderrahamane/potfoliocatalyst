@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
 	return (
 		<footer className="footer" id="contact">
-			<h1>Contact</h1>
+			<h1 className="hover-underline-animation">Contact</h1>
 			<div className="social-links">
 				<a
 					href="https://www.linkedin.com/in/nishant-bhosale-6777241b6/"

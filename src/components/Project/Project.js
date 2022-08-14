@@ -1,8 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Project.css";
+import Modal from "../Modal/Modal";
+
+
+
+
 
 const Project = (props) => {
-	const { title, demoLink, sourceCodeLink, imageSrc } = props.project;
+	const[model,setModel]=useState(false);
+
+	const [tempdata,setTempdata]=useState([]);
+	
+
+	const { title,description, demoLink, sourceCodeLink, imageSrc,stack,descGenral,thumbnail } = props.project;
+	
+	const getData=(imageSrc,title,description,stack,descGenral,thumbnail)=>{
+	
+		
+		let tempData=[imageSrc,title,description,stack,descGenral,thumbnail];
+		
+		setTempdata(item=>[1,...tempData]);
+		
+		console.warn(tempData);
+		
+		return setModel(true)
+	}
 
 	return (
 		<div className="project-container">
@@ -30,7 +52,13 @@ const Project = (props) => {
 				>
 					GitHub
 				</a>
+				<button className="button-link"
+				 onClick={()=>getData(imageSrc,title,description,stack,descGenral,thumbnail)}
+				 >
+					Details
+				</button>
 			</div>
+			{ model === true ? <Modal imageSrc={tempdata[1]} title={tempdata[2]} description={tempdata[3]} stack={tempdata[4]} descGenral={tempdata[5]} thumbnail={tempdata[6]} hide={()=> setModel(false)}/>:""}
 		</div>
 	);
 };

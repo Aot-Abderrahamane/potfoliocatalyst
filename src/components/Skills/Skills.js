@@ -33,7 +33,7 @@ const Skills = () => {
 
 	return (
 		<div id="skills">
-			<h1>Skills And Technologies</h1>
+			<h1 className="hover-underline-animation">Tech Stack</h1>
 			<div className="heart"></div>
 			<div className="skills-container">
 				{images.map((img, index) => {

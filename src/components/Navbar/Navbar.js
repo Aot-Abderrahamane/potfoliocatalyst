@@ -17,10 +17,11 @@ const Navbar = () => {
 	const navLinksState = expanded ? " expanded" : "";
 
 	return (
-		<div className="navbar">
+		<div className="navbar ml-auto ">
 			<div className="navbar__content content-container-fluid">
 				<a className="navbar__title" href="/">
-					<h1>Nishant Bhosale</h1>
+					<h1>Abderrahmane</h1>
+					
 				</a>
 				<button
 					className="navbar__menu"
@@ -30,9 +31,7 @@ const Navbar = () => {
 					<MdMenu />
 				</button>
 				<div className={`navbar-links${navLinksState}`}>
-					<NavLink link="#home" hide={hideNavbar}>
-						Home
-					</NavLink>
+					
 					<NavLink link="#about" hide={hideNavbar}>
 						About
 					</NavLink>

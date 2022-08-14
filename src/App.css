@@ -1,5 +1,5 @@
 * {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Sofia
 		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
@@ -23,39 +23,43 @@ html::-webkit-scrollbar-track {
 	text-align: center;
 	overflow-x: hidden;
 }
+.modal-open{
+	overflow:hidden;
+}
 
 :root {
 	scroll-behavior: smooth;
 	scroll-padding-top: 60px;
 }
-
-.main-heading {
-	margin: 0 auto;
-	color: white;
-	font-size: 1.5rem;
-	margin: 2rem;
+.main-heading-master{
+  position: absolute;
+  right: 50px;
+  width: 400px;
+  padding: 250px;
+  border-radius: 50%;
 }
 
+
 .animation-container {
-	width: 100vw;
+	width: vw;
 	display: grid;
-	place-items: center;
-	background-color: rgb(25 19 52);
+	place-items: start;
+	background: #0f0c29;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin: auto;
-	height: 100vh;
+	height: 75vh;
+	border :3px solid green;
+	
 }
 
 .main-section {
+	width: 99%;
+    display: flex;
+    flex-direction: column;
 	height: 100vh;
-	padding: 0 0rem;
 	position: absolute;
 	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 1000;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 	justify-content: center;
 }
 
@@ -75,42 +79,36 @@ span::before {
 ul {
 	margin: 0 auto;
 	padding: 0;
-	display: flex;
+	
 	list-style: none;
-	justify-content: center;
-	align-items: center;
+	
+	
 }
 
 ul li {
-	color: white;
-	font-family: "Cinzel Decorative", cursive !important;
-	font-size: 2rem;
-	/* letter-spacing: 5px; */
-	animation: lighting 2s linear infinite;
+	color: black;
+	
+	font-size: 1rem;
+	
+}
+
+.modal-heading h2{
+	color:red;
 }
 
 .about-me {
-	text-align: left;
-	background-color: black;
 	color: white;
-	padding: 0;
-	margin: 0;
+	border :3px solid green;
+	
 }
 
 .about-me-info {
+	text-align:start;
 	margin: 0 auto;
 	width: 90%;
-	padding: 1rem 0;
+	padding:  0;
 }
 
-.about-me-info h1 {
-	color: white;
-	font-size: 2rem;
-}
-
-.about-me p {
-	font-size: 1rem;
-}
 
 @keyframes lighting {
 	0% {
@@ -172,16 +170,16 @@ ul li:nth-child(14) {
 
 @keyframes switchWords {
 	0% {
-		content: "WEB DEV";
+		content: "Rigoureux";
 	}
 	30% {
-		content: "TO BUILD";
+		content: "Autonome";
 	}
 	60% {
-		content: "REACT JS";
+		content: "Motivé";
 	}
 	100% {
-		content: "BASKETBALL";
+		content: " Curiosité";
 	}
 }
 
@@ -189,21 +187,10 @@ ul li:nth-child(14) {
 	:root {
 		scroll-padding-top: 30px;
 	}
+	
 
-	ul li {
-		font-size: 5rem;
-	}
-
-	span {
-		font-size: 2.5rem;
-	}
-
-	span::before {
-		padding: 1rem;
-	}
-	.main-heading {
-		font-size: 35px;
-	}
+	
+	
 	.about-me {
 		padding-top: 0;
 		padding: 2rem;
@@ -220,3 +207,36 @@ ul li:nth-child(14) {
 		font-size: 3rem;
 	}
 }
+
+
+
+@media (max-width: 767px) {
+	.hidden-mobile {
+	  display: none;
+	}
+  }
+
+
+.hover-underline-animation{
+	display: inline-block;
+  	position: relative;
+	
+}
+.hover-underline-animation:after {
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: 
+  #0087ca;
+	transform-origin: bottom right;
+	transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+  }

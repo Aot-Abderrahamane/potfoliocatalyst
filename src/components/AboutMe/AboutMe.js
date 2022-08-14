@@ -1,5 +1,4 @@
 import React from "react";
-
 const AboutMe = () => {
 	return (
 		<div className="about-me" id="about">
@@ -18,6 +17,7 @@ const AboutMe = () => {
 				<p>
 					Currently I am a student at DY. Patil College of Engineering, Pune.
 				</p>
+				
 			</div>
 		</div>
 	);

@@ -1,0 +1,28 @@
+/*Debut Gallery*/
+.gallery-section .gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .gallery-section .image{
+    flex: 50%;
+    overflow: hidden;
+  }
+  .gallery-section .image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+  }
+  
+  @media screen and (max-width:960px) {
+    .gallery-section .image{
+      flex: 100%;
+    }
+    
+  }
+  @media screen and (max-width:768px) {
+    .gallery-section .image{
+        flex-direction: column;
+    }
+    
+  }
