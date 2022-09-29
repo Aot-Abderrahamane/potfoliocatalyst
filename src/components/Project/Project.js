@@ -4,8 +4,6 @@ import Modal from "../Modal/Modal";
 
 
 
-
-
 const Project = (props) => {
 	const[model,setModel]=useState(false);
 

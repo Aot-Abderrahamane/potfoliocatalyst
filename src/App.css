@@ -49,7 +49,6 @@ html::-webkit-scrollbar-track {
 	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	margin: auto;
 	height: 75vh;
-	border :3px solid green;
 	
 }
 
@@ -59,37 +58,8 @@ html::-webkit-scrollbar-track {
     flex-direction: column;
 	height: 100vh;
 	position: absolute;
-	top: 0;
+	top: 10%;
 	justify-content: center;
-}
-
-span {
-	font-size: 1.25rem;
-}
-
-span::before {
-	content: "WEB DEVELOPMENT";
-	text-transform: uppercase;
-	color: white;
-	background-color: black;
-	padding: 0.5rem;
-	animation: switchWords 5s infinite ease-in-out;
-}
-
-ul {
-	margin: 0 auto;
-	padding: 0;
-	
-	list-style: none;
-	
-	
-}
-
-ul li {
-	color: black;
-	
-	font-size: 1rem;
-	
 }
 
 .modal-heading h2{
@@ -98,7 +68,6 @@ ul li {
 
 .about-me {
 	color: white;
-	border :3px solid green;
 	
 }
 

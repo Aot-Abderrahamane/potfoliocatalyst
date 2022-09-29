@@ -6,6 +6,10 @@ import chatAppImg from "../../images/socketio.png";
 import Project from "../Project/Project";
 import blogImage from "../../images/blog-image.PNG";
 import CPMC from "../../images/cpmc-website.PNG";
+import homeIMG from "../../images/home.png";
+import carsIMG from "../../images/choosing car.png";
+import contactIMG from "../../images/contact.png";
+import louerIMG from "../../images/contact.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -25,10 +29,10 @@ const Projects = () => {
 			title: "Tet1Cars",
 			demoLink: "",
 			sourceCodeLink: "",
-			imageSrc: contactKeeperImg,
+			imageSrc: homeIMG,
 			description:"tet1cars est une plateforme vise à gérer une agence de location des voitures. Grâce à sa simplicité et l'efficacité.Il manipule les données tel que les scooters,l'état de voiture, les contrats de locations avec la durée ...",
 			stack:['Wordpress', 'Elementor'],
-			thumbnail :[blogImage,blogImage,blogImage,blogImage],
+			thumbnail :[homeIMG,carsIMG,contactIMG,louerIMG,],
 			descGenral:"Voluptate cillum minim qui tempor anim fugiat ea velit do quis. Nostrud ipsum amet veniam officia minim est occaecat ad. Veniam minim exercitation sit mollit laboris. Elit qui veniam est culpa esse consequat ipsum ad sit minim consectetur ea ex deserunt. Consequat culpa dolore mollit fugiat incididunt. Ut adipisicing eiusmod proident pariatur anim non. Ipsum deserunt occaecat consectetur minim anim ipsum pariatur adipisicing consequat."
 
 

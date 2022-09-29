@@ -24,7 +24,7 @@ const MainSection = () => {
 					Expérimenté dans le développement Web pour fournir une application Web robuste pour
 						Présentation de haut niveau.
 					</Paragraph>
-					<Btn onClick={() => (window.location = "https://whatssplink.com")}>Contacter</Btn>
+					<Btn onClick={() => window.open ("https://api.whatsapp.com/send?phone=212638440680","_blank")}>Contacter</Btn>
 					<Btn onClick={() =>  window.open("https://drive.google.com/file/d/1e5ALH6lex6JLqCRdEPILKiEole9hcRJK/view?usp=sharing", "_blank")} >Resume</Btn>
 				</div>
 				
