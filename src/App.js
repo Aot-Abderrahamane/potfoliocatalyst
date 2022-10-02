@@ -18,8 +18,7 @@ function App() {
 					<BackgroundAnimation />
 					<MainSection/>
 				</div>
-				
-				<Skills />
+				<Skills  />
 				<Projects />
 				<Footer />
 			</div>

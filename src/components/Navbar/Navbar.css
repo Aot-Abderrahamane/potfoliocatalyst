@@ -11,14 +11,14 @@
 	flex-wrap: wrap;
 	align-items: stretch;
 	justify-content: space-between;
-	padding: 0.75rem 8px;
-	margin-right:50px;
+	padding: 0rem 0px;
+	
 }
 
 @media (min-width: 450px) {
 	.navbar .navbar__content.content-container-fluid {
-		padding-left: 3.2rem;
-		padding-right: 4.2rem;
+		padding-left: 2.2rem;
+		padding-right: 3.2rem;
 	}
 }
 
@@ -51,7 +51,7 @@
 }
 
 .navbar .navbar__menu svg {
-	font-size: 40px;
+	font-size: 20px;
 	
 }
 
@@ -66,7 +66,7 @@
 }
 
 .navbar-links.expanded {
-	height: 240px;
+	height: 210px;
 	visibility: visible;
 	
 }
@@ -75,7 +75,7 @@
 	color: white;
 	text-decoration: none;
 	margin: 0;
-	padding: 10px 16px;
+	padding: 1px 16px;
 	position: relative;
 	margin: 0.05rem 0.25rem;
 	text-align: center;

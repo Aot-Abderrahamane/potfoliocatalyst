@@ -45,7 +45,7 @@ export default class Modal extends Component {
                                             <Par>{this.props.description}</Par>
                                         </div>
                                         <div className="col pr-2">
-                                            <iframe width="790" height="370" src="https://www.youtube.com/embed/1Z5aI7txujg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                            <iframe width="790" height="370" src="" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                                         </div>
                                     </div>
                                     <div className="row  ">
@@ -88,7 +88,7 @@ export default class Modal extends Component {
                                     </div>
                             <div className='row'>
                                 <div className='col col-4'>
-                                <button type="button" class="btn btn-secondary " data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-secondary "  onClick={this.props.hide} data-dismiss="modal">Close</button>
 
 
                                 </div>

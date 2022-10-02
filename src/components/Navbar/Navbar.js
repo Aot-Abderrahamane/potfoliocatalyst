@@ -17,7 +17,7 @@ const Navbar = () => {
 	const navLinksState = expanded ? " expanded" : "";
 
 	return (
-		<div className="navbar ml-auto ">
+		<div className="navbar">
 			<div className="navbar__content content-container-fluid">
 				<a className="navbar__title" href="/">
 					<h1>Abderrahmane</h1>
@@ -33,13 +33,13 @@ const Navbar = () => {
 				<div className={`navbar-links${navLinksState}`}>
 					
 					<NavLink link="#about" hide={hideNavbar}>
-						About
+						À propos de moi
 					</NavLink>
 					<NavLink link="/#skills" hide={hideNavbar}>
-						Skills
+						Mes Technologies
 					</NavLink>
 					<NavLink link="/#work" hide={hideNavbar}>
-						Work
+						Mes Projets
 					</NavLink>
 					<NavLink link="/#contact" hide={hideNavbar}>
 						Contact

@@ -76,7 +76,7 @@ const Projects = () => {
 
 	return (
 		<div className="backgroundStyle">
-			<h1 className="work-heading hover-underline-animation">My Work</h1>
+			<h1 className="work-heading hover-underline-animation">	Mes Projets</h1>
 			<div id="work" className="projects-container" projects={projects}>
 				{projects.map((project, index) => {
 					return <Project project={project} key={index} />;
