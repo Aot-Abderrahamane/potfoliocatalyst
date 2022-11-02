@@ -13,6 +13,7 @@ import productPage from "../../images/product-page.png";
 import panierPage from "../../images/panier-page.png";
 import checkoutPage from "../../images/checkout-page.png";
 import adminPanel from "../../images/admin-panel.png";
+import clinicIMG from "../../images/clinic_thumb.jpeg";
 
 
 
@@ -70,7 +71,7 @@ const Projects = () => {
 			title: "GESTION CLINIC",
 			demoLink: "",
 			sourceCodeLink: "",
-			imageSrc: netflixCloneImg,
+			imageSrc: clinicIMG,
 			description:"GESTION D'HOPITAL est un logiciel développé sous ASP.Net et Sql Server est destiné aux cliniques et cabinets médicaux désireux de connaître les situations des recettes issues des prestations réalisées pour les patients ainsi que les medecins. Comme dit le logiciel est donc composé de deux modules: Gestion des patients et Gestion de Medecins. Ces deux modules sont indépendants l'un de l'autre.",
 			stack:['ASP.NET', 'Bootsrtap 5', 'SQLSERVER'],
 			thumbnail :[],
