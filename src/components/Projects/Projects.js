@@ -14,6 +14,8 @@ import panierPage from "../../images/panier-page.png";
 import checkoutPage from "../../images/checkout-page.png";
 import adminPanel from "../../images/admin-panel.png";
 import clinicIMG from "../../images/clinic_thumb.jpeg";
+import elearningIMG from "../../images/e-learning.jpeg";
+
 
 
 
@@ -49,7 +51,7 @@ const Projects = () => {
 			title: "APPLICATION DE GESTION DES COURS",
 			demoLink: "",
 			sourceCodeLink: "",
-			imageSrc: ecommerceImg,
+			imageSrc: elearningIMG,
 			description:"est un site web E-LEARNING offre tous les types des cours du secteur de developpement informatique. Vous trouverez dans se site vitrine virtuelle toutes les meilleures cours de programmation",
 			stack:['JAVA', 'SPRING BOOT', 'BootStrap'],
 			thumbnail :[],
