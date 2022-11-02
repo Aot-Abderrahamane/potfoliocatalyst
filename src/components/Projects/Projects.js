@@ -1,15 +1,22 @@
 import React from "react";
 import ecommerceImg from "../../images/ecommerce-site.png";
 import netflixCloneImg from "../../images/netflix.png";
-import contactKeeperImg from "../../images/contact-keeper.PNG";
 import chatAppImg from "../../images/socketio.png";
 import Project from "../Project/Project";
 import blogImage from "../../images/blog-image.PNG";
-import CPMC from "../../images/cpmc-website.PNG";
 import homeIMG from "../../images/home.png";
 import carsIMG from "../../images/choosing car.png";
 import contactIMG from "../../images/contact.png";
 import louerIMG from "../../images/contact.png";
+import homePage from "../../images/home-page.png";
+import productPage from "../../images/product-page.png";
+import panierPage from "../../images/panier-page.png";
+import checkoutPage from "../../images/checkout-page.png";
+import adminPanel from "../../images/admin-panel.png";
+
+
+
+
 import "./Projects.css";
 
 const Projects = () => {
@@ -19,10 +26,10 @@ const Projects = () => {
 			title: "SITE WEB E-COMMERCE",
 			demoLink: "",
 			sourceCodeLink: "",
-			imageSrc: blogImage,
+			imageSrc: homePage,
 			description:"un site web ecommerce de vente des produits informatique. Dans le cadre de nos études à L'institut supérieur de génie informatique BAC +3, on désir de faire un site web e-commerce DE VENTE DES PRODUITS INFORMATIQUE Pour l’obtention du diplôme des études supérieur de niveau Bac+3 en génie informatique.",
-			stack:['Laravel 8', 'Bootsrtap 5', 'JavaScript', 'Ajax'],
-			thumbnail :[blogImage,blogImage,blogImage,blogImage],
+			stack:['Laravel 8', 'Bootsrtap 5', 'JavaScript', 'Ajax',],
+			thumbnail :[homePage,productPage,panierPage,checkoutPage,adminPanel],
 			descGenral:"Voluptate cillum minim qui tempor anim fugiat ea velit do quis. Nostrud ipsum amet veniam officia minim est occaecat ad. Veniam minim exercitation sit mollit laboris. Elit qui veniam est culpa esse consequat ipsum ad sit minim consectetur ea ex deserunt. Consequat culpa dolore mollit fugiat incididunt. Ut adipisicing eiusmod proident pariatur anim non. Ipsum deserunt occaecat consectetur minim anim ipsum pariatur adipisicing consequat."
 		},
 		{
